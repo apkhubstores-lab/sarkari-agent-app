@@ -1,0 +1,21 @@
+name: sarkari_agent
+description: "Sarkari Form AI Assistant App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_generative_ai: ^0.4.0
+  system_alert_window: ^1.4.0
+  screen_capturer: ^0.1.6
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
+  permission_handler: ^11.3.1
+
+flutter:
+  uses-material-design: true
+  
